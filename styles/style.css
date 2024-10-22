@@ -1,3 +1,8 @@
+nav a {
+    color: #e0e0e0;
+    font-weight: 500;
+}
+
 .back-color {
     background: rgb(2, 0, 36);
     background: linear-gradient(300deg, #124e66, #2e3944, #748d92);
@@ -39,6 +44,7 @@
 
 .main-background {
     background-color: #f0f2f5;
+    height: 90vh;
 }
 
 .main-title {
@@ -50,11 +56,11 @@
 .main-text {
     color: #212a31;
     font-family: "DM Sans";
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 #main-img {
     height: 50vh;
     border-radius: 40%;
-    border: #124e66 solid 3px;
+    border: #212a31 solid 3px;
 }
