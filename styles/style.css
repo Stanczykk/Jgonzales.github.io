@@ -8,7 +8,7 @@ nav a {
     background: linear-gradient(300deg, #124e66, #2e3944, #748d92);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
-    height: 90vh;
+    height: 90%;
 }
 @keyframes gradient-animation {
     0% {
@@ -23,15 +23,17 @@ nav a {
 }
 /* Header CSS */
 #profile-img {
-    width: 45vh;
+    width: 400px;
     border-radius: 50%;
     border: black solid 1px;
+    box-shadow: 0px 0px 20px #212a31;
 }
 
 .prof-title {
     color: #e0e0e0;
     font-family: "Audrey";
     font-weight: bolder;
+    font-size: 4.5vh;
 }
 
 .prof-intro {
@@ -44,13 +46,15 @@ nav a {
 
 .main-background {
     background-color: #f0f2f5;
-    height: 90vh;
+    height: 90%;
+    width: auto;
 }
 
 .main-title {
     color: #212a31;
     font-family: "Audrey";
     font-weight: bolder;
+    border-bottom: #212a31 solid 2px;
 }
 
 .main-text {
@@ -60,7 +64,7 @@ nav a {
 }
 
 #main-img {
-    height: 50vh;
-    border-radius: 40%;
-    border: #212a31 solid 3px;
+    width: 400px;
+    border-radius: 20%;
+    border: black solid 1px;
 }
