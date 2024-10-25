@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth; /* Switch to JavaScript */
+}
+
 nav a {
     color: #e0e0e0;
     font-weight: 500;
+    transition-timing-function: ease;
 }
 
 .back-color {
@@ -23,7 +28,7 @@ nav a {
 }
 /* Header CSS */
 #profile-img {
-    width: 400px;
+    width: 350px;
     border-radius: 50%;
     border: black solid 1px;
     box-shadow: 0px 0px 20px #212a31;
@@ -64,7 +69,28 @@ nav a {
 }
 
 #main-img {
-    width: 400px;
+    width: 350px;
     border-radius: 20%;
     border: black solid 1px;
+}
+
+/* Section Skills */
+
+.skills {
+    background-color: #e0e0e0;
+    height: 90%;
+    width: auto;
+}
+
+.skills-title {
+    color: #212a31;
+    font-family: "Audrey";
+    font-weight: bolder;
+    border-bottom: #212a31 solid 2px;
+}
+
+.skills-text {
+    color: #212a31;
+    font-family: "DM Sans";
+    font-weight: 400;
 }
