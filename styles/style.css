@@ -87,10 +87,41 @@ nav a {
     font-family: "Audrey";
     font-weight: bolder;
     border-bottom: #212a31 solid 2px;
+    font-size: 1.5rem;
 }
 
 .skills-text {
     color: #212a31;
     font-family: "DM Sans";
     font-weight: 400;
+}
+
+.call-to-action {
+    background-color: #e0e0e0;
+    height: 90%;
+    width: auto;
+}
+
+/* Footer */
+#footer-background {
+    background-color: #e0e0e0;
+    height: 90%;
+    width: auto;
+}
+
+.cta-title {
+    color: #212a31;
+    font-family: "Audrey";
+    font-weight: bolder;
+    border-bottom: #212a31 solid 2px;
+    font-size: 2rem;
+}
+
+footer a {
+    color: #2e3944;
+
+}
+
+footer a:hover {
+    color: #1b789d;
 }
